@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 3052088110327875631}
   - component: {fileID: 5498925252444941548}
   - component: {fileID: 7447492173372150659}
+  - component: {fileID: -8904463255152264217}
   m_Layer: 6
   m_Name: Dog
   m_TagString: Untagged
@@ -131,6 +132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0113e9a2424e5394f8afc25a4d909edf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mouseClickAction: {fileID: 285235573203573353, guid: fea0e53b419d92045a6e7f91a592532b, type: 3}
   layerMask:
     serializedVersion: 2
     m_Bits: 64
@@ -147,6 +149,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.9009488, z: 1}
   m_Center: {x: -0, y: 0.94599617, z: -0}
+--- !u!114 &-8904463255152264217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2382651986756047509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: fea0e53b419d92045a6e7f91a592532b, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: PetController
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &2666240590944881580
 GameObject:
   m_ObjectHideFlags: 0

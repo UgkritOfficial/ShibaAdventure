@@ -10,12 +10,12 @@ public class CharacterCreate : MonoBehaviour
 {
     //สร้าง Character
     
-    public TMP_InputField inputName;
-    public int characterIndex = 0 ;
-    public Button startButton;
-    public Button catButton;
-    public Button dogButton;
-    public Button bunnyButton;
+    [SerializeField] private TMP_InputField inputName;
+    [SerializeField] private int characterIndex = 0 ;
+    [SerializeField] private Button startButton;
+    [SerializeField] private Button catButton;
+    [SerializeField] private Button dogButton;
+    [SerializeField] private Button bunnyButton;
 
 
     private void Update()

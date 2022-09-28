@@ -7,11 +7,11 @@ public class PlayerSpawn : MonoBehaviour
 {
     //เอาไว้ Spawn สัตว์
     public static PlayerSpawn instance; //Singlaton
-    public GameObject dogPrefab;
-    public GameObject catPrefab;
-    public GameObject bunnyPrefab;
-    public int thisCharacterIndex;
-    public Transform spawnPosition;
+    [SerializeField] private GameObject dogPrefab;
+    [SerializeField] private GameObject catPrefab;
+    [SerializeField] private GameObject bunnyPrefab;
+    [SerializeField] private int thisCharacterIndex;
+    [SerializeField] private Transform spawnPosition;
     
     private void Awake() //Singlaton
     {
@@ -47,6 +47,7 @@ public class PlayerSpawn : MonoBehaviour
         else
         {
             Instantiate(bunnyPrefab, spawnPosition.position,spawnPosition.rotation);
+            
         }
         
     }

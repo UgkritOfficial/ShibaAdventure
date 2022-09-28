@@ -1,0 +1,34 @@
+{
+    "name": "Controller",
+    "maps": [
+        {
+            "name": "PetController",
+            "id": "3b3b78a3-36dc-4891-97c4-b223c69ab5f7",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "51b156f0-c5c7-4657-90e7-80bd1bd95fe8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e77510b2-58b5-406d-ac2b-d54787d128cf",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

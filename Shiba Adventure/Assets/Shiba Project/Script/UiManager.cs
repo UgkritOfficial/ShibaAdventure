@@ -42,4 +42,22 @@ public class UiManager : MonoBehaviour
    {
        petUi.gameObject.SetActive(false);
    }
+   
+   public void getFood()
+   {
+        Debug.Log("Click Food Button");
+        closePetUI();
+   }
+   
+   public void getShower()
+      {
+           Debug.Log("Click Shower Button");
+           closePetUI();
+      }
+      
+   public void getPat()
+   {
+       Debug.Log("Click Pat Button");
+       closePetUI();
+   }
 }
